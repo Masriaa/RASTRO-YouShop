@@ -22,6 +22,8 @@ O workflow recebe uma mensagem, mascara informações pessoais, cria um identifi
 7. A IA nunca reduz uma urgência definida pelas regras locais.
 8. Casos incertos ou não verdes seguem para uma etapa de revisão humana.
 
+![Pipeline Rastro](pipeline%20rastro.jpg)
+
 ## Importação no n8n
 
 ### Requisitos
@@ -85,5 +87,5 @@ Use somente informações fictícias durante testes.
 - O modelo pode gerar respostas incorretas ou ambíguas.
 - As regras de prazo são ilustrativas e não representam políticas reais de atendimento.
 
-## Detalhe de segurança:
+## Detalhe de segurança
 O secret presente no arquivo .json é aleatório e não está sendo usado em nenhum outro ambiente, será usado apenas para teste.
