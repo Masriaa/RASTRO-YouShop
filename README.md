@@ -84,3 +84,6 @@ Use somente informações fictícias durante testes.
 - A base de logs é estática e simulada.
 - O modelo pode gerar respostas incorretas ou ambíguas.
 - As regras de prazo são ilustrativas e não representam políticas reais de atendimento.
+
+## Detalhe de segurança:
+O secret presente no arquivo .json é aleatório e não está sendo usado em nenhum outro ambiente, será usado apenas para teste.
