@@ -11,7 +11,7 @@ O workflow recebe uma mensagem, mascara informações pessoais, cria um identifi
 ## Como funciona
 
 1. Um formulário coleta `mensagem`, `tipo_usuario` e `email`.
-2. Dados pessoais presentes na mensagem são mascarados.
+2. Dados pessoais presentes na mensagem são mascarados utilizando Regex, e não IA.
 3. O e-mail é transformado em um identificador pseudonimizado por HMAC-SHA256.
 4. Regras locais atribuem uma cor de urgência:
    - Verde: rotina;
